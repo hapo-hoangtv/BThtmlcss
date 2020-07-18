@@ -1,0 +1,125 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*header*/
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 36px 60px 44px 60px;
+    align-items: center;
+}
+
+.header .logo img {
+    max-width: 340px;
+}
+
+.header .main-menu .menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.header .main-menu .menu { 
+    display: flex;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+ }
+
+.menu .menu-item .menu-item-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px calc(35px/2);
+    color: #505353;
+    font-weight: bold;
+}
+
+.menu .menu-item .menu-item-link:hover {
+    background-color: #B2D235;
+    border-radius: 17px;
+    color: white;
+}
+
+/*footer*/
+.footer {
+    color: white;
+    
+}
+
+.footer .footer-logo-note { 
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+    padding: 0 4rem;
+    margin: 0;
+}
+
+.footer .main-footer {
+    background-color: #505353;
+    padding: 46px 132px;
+    display: flex;
+}
+
+.main-footer .footer-col {
+    flex: 1;
+}
+
+.main-footer .footer-col-des {
+    flex: 2;
+}
+
+.footer .footer-logo {
+    max-width: 291px;
+}
+
+.footer-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer-menu-item {
+    flex: 1;
+}
+
+.footer-menu-item-link {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+    color: white;
+    text-decoration:none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* justify-content: space-between; */
+}
+
+.social a {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.copy-right {
+    background-color:#454545;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    padding: 10px 0
+}

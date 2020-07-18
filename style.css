@@ -1,8 +1,11 @@
 html, body{
-	margin:0;
-	font-size: 100%;
-	background: #fff;
-	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
 }
 /*header*/
 
@@ -111,7 +114,7 @@ html, body{
 	width: 513px;
 	height: 61px;
 	left: 59px;
-	top: 354px;
+	top: 204px;
 	font-family: UTM BryantLG;
 	font-style: normal;
 	font-weight: normal;
@@ -126,7 +129,7 @@ html, body{
 	width: 395px;
 	height: 61px;
 	left: 60px;
-	top: 406px;
+	top: 256px;
 }
 
 .hapo-learn-at b {
@@ -143,7 +146,7 @@ html, body{
 	width: 249px;
 	height: 50px;
 	margin-left: 60px;
-	margin-top: 477px;
+	margin-top: 327px;
 } 
 
 .hapo-lesson p {
@@ -161,7 +164,7 @@ html, body{
 	width: 300px;
 	height: 60px;
 	margin-left: 60px;
-	margin-top: 553px;
+	margin-top: 403px;
 	background: #B2D235;
 	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 35px;
@@ -258,10 +261,10 @@ html, body{
 .message-box .hapo-button-messenger img {
 	position: absolute;
 	padding: 10px 208px 10px 51px;
-	/* background: #FFFFFF; */
 }
+
 /* 
-.message-box .hapo-button-messenger .hapo-button-message-li {
+.message-box .hapo-button-messenger .hapo-button-message-link {
 	position: absolute;
 	width: 148px;
 	height: 16px;
@@ -290,3 +293,266 @@ html, body{
     text-align: center;
     letter-spacing: -0.02em;
 }
+
+.section-subject{
+
+}
+
+.subject-html {
+	position: absolute;
+	width: 370px;
+	height: 470px;
+	margin-left: 135px;
+	margin-top: 855px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.subject-html .subject-icon-html {
+	position: absolute;
+	width: 370px;
+	height: 215px;
+	background: #3F6185;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px 15px 0px 0px;
+}
+
+.subject-html .subject-icon-html img {
+	position: absolute;
+	width: 226px;
+	height: 125px;
+	margin-left: 72px;
+	margin-top: 45px;
+} 
+
+.subject-html .subject-name-html {
+	position: absolute;
+	width: 274px;
+	height: 37px;
+	margin-left: 48px;
+	margin-top: 240px;
+	font-family: UTM BryantLG;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: -0.05em;
+	color: #B2D235;
+}
+
+.des {
+	position: absolute;
+	width: 294px;
+	height: 80px;
+	margin-left: 37px;
+	margin-top: 287px;
+	font-family: UTM BryantLG;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: -0.05em;
+	color: #505353;
+}
+
+.atr {
+	position: absolute;
+	width: 200px;
+	height: 42px;
+	margin-left: 85px;
+	margin-top: 382px;
+	background: #B2D235;
+	box-shadow: inset 0px 1.5px 2px #6F8710;
+	border-radius: 22px;	
+}
+
+.atr .take-this-care {
+	position: absolute;
+	width: 127px;
+	height: 22px;
+	margin-left: 36px;
+	margin-top: 9px;
+	font-family: UTM BryantLG;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: -0.05em;
+	color: #FFFFFF;
+}
+
+.subject-laravel {
+	position: absolute;
+	width: 370px;
+	height: 470px;
+	margin-left: 535px;
+	margin-top: 855px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.subject-laravel .subject-icon-laravel {
+	position: absolute;
+	width: 370px;
+	height: 215px;
+	background: #DC594C;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px 15px 0px 0px;
+}
+
+.subject-laravel .subject-icon-laravel img {
+	position: absolute;
+	width: 226px;
+	height: 125px;
+	margin-left: 93px;
+	margin-top: 45px;
+} 
+
+.subject-laravel .subject-name-laravel {
+	position: absolute;
+	width: 274px;
+	height: 37px;
+	margin-left: 72px;
+	margin-top: 240px;
+	font-family: UTM BryantLG;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: -0.05em;
+	color: #B2D235;
+}
+
+.subject-php {
+	position: absolute;
+	width: 370px;
+	height: 470px;
+	margin-left: 935px;
+	margin-top: 855px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.subject-php .subject-icon-php {
+	position: absolute;
+	width: 370px;
+	height: 215px;
+	background: #556598;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px 15px 0px 0px;
+}
+
+.subject-php .subject-icon-php img {
+	position: absolute;
+	width: 226px;
+	height: 125px;
+	margin-left: 72px;
+	margin-top: 45px;
+} 
+
+.subject-php .subject-name-php {
+	position: absolute;
+	width: 274px;
+	height: 37px;
+	margin-left: 106px;
+	margin-top: 240px;
+	font-family: UTM BryantLG;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: -0.05em;
+	color: #B2D235;
+}
+
+.footer {
+	position: absolute;
+	width: 1440px;
+	height: 308px;
+	left: 0px;
+	top: 4754px;
+		
+}
+
+.footer .footer-body {
+	background: #505353;
+}
+
+/* .footer-body { 
+	display: flex;
+	margin: 30px;
+} */
+
+.footer-body .footer-hapolearn img {
+	margin-top: 46px;
+	margin-left: 132px;
+}
+
+.footer-body .footer-hapolearn p {
+	margin-top: 2px;
+	margin-left: 198px;
+	margin-right: 993px;
+	font-family: UTM BryantLG;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: -0.05em;
+	color: #FFFFFF;
+}
+
+.footer-body .footer-menu {
+	margin-left: 567px;
+	
+}
+
+.footer-menu {
+	font-family: UTM BryantLG;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: -0.05em;
+	
+}
+
+.footer-menu ul {
+	list-style-type: none
+}
+
+.footer-menu ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.footer-body .icon-contact {
+	display: inline-block;
+	margin-top: 124px;
+	margin-left: 1012px;
+}
+
+.icon-contact img {
+	background: #FFFFFF;
+	border-radius: 50%;
+	margin: 35px;
+}
+
+.footer .copyright {
+	padding-top: 2px;
+	background: #454545;
+}
+
+.copyright p {
+	margin-left: 500px;
+	margin-top: 7px;
+	font-family: UTM BryantLG;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.05em;
+	color: #FFFFFF;
+}
+
+
