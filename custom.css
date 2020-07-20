@@ -1,125 +1,281 @@
-html,body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-}
-
-* {
+  }
+  * {
     box-sizing: border-box;
-}
-
-/*header*/
-.header {
+  }
+  /*header*/
+  
+  .header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 36px 60px 44px 60px;
     align-items: center;
-}
-
-.header .logo img {
+  }
+  .header .logo img {
     max-width: 340px;
-}
-
-.header .main-menu .menu {
+  }
+  .header .main-menu .menu {
     padding: 0;
     margin: 0;
     list-style-type: none;
-}
-
-.header .main-menu .menu { 
+  }
+  .header .main-menu .menu {
     display: flex;
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
- }
-
-.menu .menu-item .menu-item-link {
+  }
+  .menu .menu-item .menu-item-link {
     text-decoration: none;
     display: inline-block;
     padding: 7px calc(35px/2);
     color: #505353;
     font-weight: bold;
-}
-
-.menu .menu-item .menu-item-link:hover {
+  }
+  .menu .menu-item .menu-item-link:hover {
     background-color: #B2D235;
     border-radius: 17px;
     color: white;
-}
-
-/*footer*/
-.footer {
+  }
+  /*footer*/
+  
+  .footer {
     color: white;
-    
-}
-
-.footer .footer-logo-note { 
+  }
+  .footer .footer-logo-note {
     font-size: 20px;
     line-height: 25px;
     letter-spacing: -0.05em;
     padding: 0 4rem;
     margin: 0;
-}
-
-.footer .main-footer {
+  }
+  .footer .main-footer {
     background-color: #505353;
     padding: 46px 132px;
     display: flex;
-}
-
-.main-footer .footer-col {
+  }
+  .main-footer .footer-col {
     flex: 1;
-}
-
-.main-footer .footer-col-des {
+  }
+  .main-footer .footer-col-des {
     flex: 2;
-}
-
-.footer .footer-logo {
+  }
+  .footer .footer-logo {
     max-width: 291px;
-}
-
-.footer-menu {
+  }
+  .footer-menu {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
-
-.footer-menu-item {
+  }
+  .footer-menu-item {
     flex: 1;
-}
-
-.footer-menu-item-link {
+  }
+  .footer-menu-item-link {
     font-weight: bold;
     font-size: 20px;
     line-height: 25px;
     letter-spacing: -0.05em;
     color: white;
-    text-decoration:none;
+    text-decoration: none;
     margin-bottom: 20px;
     display: inline-block;
-}
-
-.social {
+  }
+  .social {
     display: flex;
     align-items: center;
     height: 100%;
     /* justify-content: space-between; */
-}
-
-.social a {
+  }
+  .social a {
     display: inline-block;
     margin-right: 35px;
-}
-
-.copy-right {
-    background-color:#454545;
+  }
+  .copy-right {
+    background-color: #454545;
     text-align: center;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: -0.05em;
     color: #FFFFFF;
     padding: 10px 0
-}
+  }
+  /* section-slide */
+  
+  .hapo-slide {
+    height: 655px;
+    background: url("image/Rectangle 1.png") no-repeat;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    background-position: bottom right;
+  }
+  .hapo-slide-start {
+    align-items: center;
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.05em;
+  }
+  .hapo-learn-anytime {
+    font-size: 35px;
+    line-height: 61px;
+    color: #11114E;
+    margin-bottom: 0;
+  }
+  .hapo-learn-at {
+    font-size: 35px;
+    line-height: 61px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .hapo-lesson {
+    font-size: 20px;
+    line-height: 25px;
+    color: #505353;
+    margin-top: 0;
+  }
+  .hapo-slide-btnstart {
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 37px;
+    background: #B2D235;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    padding: 15px 67px;
+    height: 70px;
+    color: #FFFFFF;
+  }
+  /*section-subject  */
+  
+  .hapo-subject {
+    display: flex;
+    padding: 0 135px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .hapo-subject .hapo-subject-col {
+    flex: 1;
+    /*cac div co flex 1 thi se co cac thuoc tinh bang nhau */
+    margin: 0 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  .subject-html .subject-background {
+    background: #3F6185;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 0px 0px;
+  }
+  .subject-background {
+    text-align: center;
+  }
+  .subject-icon {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .subject-content {
+    font-family: UTM BryantLG;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+  }
+  .subject-name {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 37px;
+    color: #B2D235;
+    text-align: center;
+  }
+  .subject-des {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #505353;
+    margin: 10px 39px 15px 37px;
+  }
+  .take-this-course {
+    text-align: center;
+    background: #B2D235;
+    box-shadow: inset 0px 1.5px 2px #6F8710;
+    border-radius: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 15px 85px 46px 85px;
+    color: #FFFFFF;
+  }
+  .subject-laravel .subject-background {
+    background: #DC594C;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 0px 0px;
+  }
+  .subject-php .subject-background {
+    background: #556598;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 0px 0px;
+  }
+  /* section other subject */
+  
+  .hapo-other-title {
+    font-family: UTM BryantLG;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 98px;
+    letter-spacing: -0.02em;
+    color: #11114E;
+    text-align: center;
+  }
+  .other-row {
+    border-radius: 3px;
+    display: block;
+    padding-bottom: 45px;
+  }
+  .subject-css .subject-background {
+    background: #24ABE2;
+    border-radius: 15px 15px 0px 0px;
+    height: 194px;
+  }
+  .subject-rails .subject-background {
+    background: #E14E40;
+    border-radius: 15px 15px 0px 0px;
+    height: 194px;
+  }
+  .subject-java .subject-background {
+    background: #1B75BB;
+    border-radius: 15px 15px 0px 0px;
+    height: 194px;
+  }
+  .hapo-all-courses {
+    font-family: UTM BryantLG;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.02em;
+    color: #90AB26;
+    text-align: center;
+  }
+  .hapo-question {
+    background: url("image/Rectangle\ 17.png") no-repeat;
+    font-family: UTM BryantLG;
+    font-style: normal;
+    font-weight: bold;
+  }
+  .question-icon {
+    padding-left: 27.22px;
+    transform: rotate(17.12deg);
+  }
+  .hapo-question .question-body {
+    position: absolute;
+    width: 792px;
+    height: 544px;
+    margin-left: 600px;
+    margin-top: 98px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
