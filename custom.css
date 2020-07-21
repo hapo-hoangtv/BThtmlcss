@@ -209,6 +209,8 @@ body {
 
 .subject-background {
   text-align: center;
+  border-radius: 15px 15px 0 0;
+  height: 194px;
 }
 
 .subject-icon {
@@ -295,20 +297,14 @@ body {
 
 .subject-css .subject-background {
   background: #24ABE2;
-  border-radius: 15px 15px 0 0;
-  height: 194px;
 }
 
 .subject-rails .subject-background {
   background: #E14E40;
-  border-radius: 15px 15px 0 0;
-  height: 194px;
 }
 
 .subject-java .subject-background {
   background: #1B75BB;
-  border-radius: 15px 15px 0 0;
-  height: 194px;
 }
 
 .hapo-all-courses {
