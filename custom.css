@@ -204,7 +204,7 @@ body {
 .subject-html .subject-background {
   background: #3F6185;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 0 0;
 }
 
 .subject-background {
@@ -262,7 +262,7 @@ body {
 .subject-php .subject-background {
   background: #556598;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 0 0;
 }
 
 /* section other subject */
