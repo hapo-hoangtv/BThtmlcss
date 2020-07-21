@@ -188,7 +188,6 @@ body {
 
 .hapo-subject .hapo-subject-col {
   flex: 1;
-  /*cac div co flex 1 thi se co cac thuoc tinh bang nhau */
   margin: 0 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
