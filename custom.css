@@ -269,11 +269,11 @@ body {
 
 .hapo-other-title {
   text-align: center;
+  font-family: UTM BryantLG;
+  font-style: normal;
 }
 
 .hapo-other-title h1 {
-  font-family: UTM BryantLG;
-  font-style: normal;
   font-weight: bold;
   font-size: 80px;
   line-height: 98px;
@@ -308,8 +308,6 @@ body {
 }
 
 .hapo-all-courses {
-  font-family: UTM BryantLG;
-  font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 49px;
