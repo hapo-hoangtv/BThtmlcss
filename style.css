@@ -180,3 +180,77 @@ body {
   color: #FFFFFF;
 }
 
+/*section-subject  */
+
+.hapo-subject {
+  display: flex;
+  padding: 0 135px;
+  margin-top: -30px;
+}
+
+.hapo-subject .hapo-subject-col {
+  flex: 1;
+  margin: 0 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.subject-background {
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  height: 194px;
+}
+
+.subject-html .subject-background {
+  background: #3F6185;
+}
+
+.subject-icon {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.subject-content {
+  font-family: UTM BryantLG;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+}
+
+.subject-name {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 37px;
+  color: #B2D235;
+  text-align: center;
+}
+
+.subject-des {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #505353;
+  margin: 10px 39px 15px 37px;
+}
+
+.take-this-course {
+  text-align: center;
+  background: #B2D235;
+  box-shadow: inset 0 1.5px 2px #6F8710;
+  border-radius: 22px;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 15px 85px 46px 85px;
+  color: #FFFFFF;
+}
+
+.subject-laravel .subject-background {
+  background: #DC594C;
+}
+
+.subject-php .subject-background {
+  background: #556598;
+}
+
