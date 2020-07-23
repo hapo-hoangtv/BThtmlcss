@@ -2,11 +2,24 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
 }
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "UTM BryantLG";
+  font-style: normal;
+  font-weight: normal;
+  src:url("./font/UTM\ BryantLG.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src:url("./font/OpenSans-Bold.ttf");
 }
 
 /*header*/
@@ -109,11 +122,12 @@ body {
   display: flex;
   align-items: center;
   height: 100%;
+  width: 200px;
 }
 
 .social a {
   display: inline-block;
-  margin-right: 35px;
+  margin-left: 35px;
 }
 
 .copy-right {
@@ -128,8 +142,13 @@ body {
 
 /* section-banner */
 
-.hapo-slide {
+.hapo-banner {
   width: 100%;
+  height: 800px;
+  background-color: #E5E5E5;
+}
+
+.hapo-slide {
   height: 655px;
   background: url("image/Rectangle 1.png") no-repeat;
   display: flex;
@@ -157,7 +176,7 @@ body {
   font-size: 35px;
   line-height: 61px;
   color: #11114E;
-  margin-top: 0;
+  margin-top: -10px;
   margin-bottom: 0;
 }
 
@@ -185,7 +204,7 @@ body {
 .hapo-subject {
   display: flex;
   padding: 0 135px;
-  margin-top: -30px;
+  margin-top: -60px;
 }
 
 .hapo-subject .hapo-subject-col {
@@ -260,9 +279,10 @@ body {
   text-align: center;
   font-family: UTM BryantLG;
   font-style: normal;
+  margin-bottom: 30px;
 }
 
-.hapo-title h1 {
+.hapo-title span {
   font-weight: bold;
   font-size: 80px;
   line-height: 98px;
@@ -270,6 +290,7 @@ body {
   color: #11114E;
   padding-bottom: 30px;
   margin-bottom: 50px;
+  margin-top: 30px;
   display: inline-block;
   position: relative;
 }
@@ -324,6 +345,7 @@ body {
 .question-why {
   color: #FFFFFF;
   padding-top: 100px;
+  font-size: 20px;
 }
 
 .col {
@@ -332,7 +354,7 @@ body {
   max-width: 50%;
 }
 
-.question-why h2 {
+.question-why span {
   font-weight: bold;
   font-size: 70px;
   line-height: 86px;
@@ -349,6 +371,7 @@ body {
 
 .question-why ul li {
   list-style: none;
+  line-height: 35px;
 }
 
 .question-why a {
@@ -375,6 +398,7 @@ body {
   text-align: center;
   letter-spacing: -0.02em;
   color: #505353;
+  margin-top: -50px;
 }
 
 .feedback-detail {
@@ -458,10 +482,11 @@ body {
 }
 
 .statistic-start h2 {
-  font-size: 60px;
+  font-size: 55px;
   line-height: 74px;
   letter-spacing: -0.02em;
   color: #FFFFFF;
+  margin-left: 62px;
 }
 
 .statistic-button-start {
@@ -504,6 +529,7 @@ body {
   justify-content: center;
   text-align: center;
   margin-left: -100px;
+  margin-top: -60px;
   position: relative;
 }
 
@@ -514,11 +540,123 @@ body {
   margin-left: 100px;
 }
 
-.statistic-learn h2 {
+.statistic-learn span {
   color: #505353;
 }
 
-.statistic-learn h3 {
+.statistic-learn p {
   color: #B2D235;
 }
 
+/* section-message */
+
+.hapo-message-box {
+  width: 360px;
+  height: auto;
+  position: fixed;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  bottom: 20px;
+  right: 20px;
+}
+
+.message-boxchat {
+  display: flex;
+  height: 190px;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  display: none;
+}
+
+.hapo-exit {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.hapo-message-users {
+  display: flex;
+}
+
+.mess-icon {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.hapo-message-users img {
+  width: 28px;
+  height: 28px;
+  margin-bottom: -90px;
+}
+
+.hapo-login-users {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+}
+
+.hapo-ques {
+  display: flex;
+  flex-direction: column;
+}
+
+.hapo-message-content {
+  color: #7F7F7F;
+  padding: 0 15px;
+  margin-bottom: 0;
+}
+
+.hapo-message-des {
+  line-height: 17px;
+  color: #505353;
+  width: 270px;
+  margin-top: 5px;
+  padding: 15px;
+  background: #F1F0F0;
+  border-radius: 15px;
+}
+
+.hapo-message-login {
+  background: #3184F7;
+  border-radius: 10px;
+  width: 276px;
+  height: 37px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 46px;
+}
+
+.hapo-message-login img {
+  margin-right: 10px;
+}
+
+.hapo-message-start {
+  width: 208px;
+  height: 16px;
+  color: #B3B3B3;
+  margin-left: 90px;
+}
+
+.message-open {
+  width: 60px;
+  height: 60px;
+  margin-top:10px;
+  float: right;
+  cursor: pointer;
+  background-color: #2774DF;
+  border-radius: 50%;
+}
+
+.message-boxchat.active {
+  display: block;
+}
