@@ -6,8 +6,6 @@
     <title>Home</title>
     <link href="style.css" rel="stylesheet">
     <link href="fontawesome-free-5.14.0-web/css/all.min.css" rel="stylesheet">
-    <script src="js/jquery-3.5.1.min.js">
-    </script>
 </head>
 <body>
     <header class="header">
@@ -183,38 +181,34 @@
     </div>
     <div class="statistic-body">
         <div class="statistic-learn">
-            <span>Courses<span>
-            <p>1,586</p>
+            <span>Courses <span></span></span>
+            <p><span>1,586</span></p>
         </div>
         <div class="statistic-learn">
-            <span>Lessons</span>
+            <span><span>Lessons</span></span>
             <p>2,689</p>
         </div>
         <div class="statistic-learn">
-            <span>Learners </span>
+            <span>Learners</span>
             <p>16,882</p>
         </div>
     </div>
     <!-- //statistic -->
     <div class="hapo-message-box">
-        <div class="message-boxchat">
-            <div class="hapo-message-users">
-                <div class="mess-icon"><img src="image/Ellipse%207.png"></div>
-                <div class="hapo-ques">
-                    <p class="hapo-message-content">HapoLearn</p>
-                    <p class="hapo-message-des">HapoLearn xin chào bạn.<br>
-                    Bạn có cần chúng tôi hỗ trợ gì không?</p>
-                </div>
-                <i class="hapo-exit fas fa-times"></i>
-            </div>            
-            <div class="hapo-login-users">
-                <a class="hapo-message-login" href="#"><img src="image/Messenger.png">Đăng nhập vào Messenger</a>
-                <p class="hapo-message-start">Chat với HapoLearn trong Messenger</p>
-            </div>
-        </div>    
-        <img class="message-open" src="./image/Group%208.png">
-    </div>
-    <!-- //message -->
+    <div class="message-boxchat">
+        <div class="hapo-message-users">
+            <div class="mess-icon"><img src="image/Ellipse%207.png"></div>
+            <div class="hapo-ques">
+                <p class="hapo-message-content">HapoLearn</p>
+                <p class="hapo-message-des">HapoLearn xin chào bạn.<br>
+                Bạn có cần chúng tôi hỗ trợ gì không?</p>
+            </div><i class="hapo-exit fas fa-times"></i>
+        </div>
+        <div class="hapo-login-users">
+            <a class="hapo-message-login" href="#"><img src="image/Messenger.png">Đăng nhập vào Messenger</a>
+            <p class="hapo-message-start">Chat với HapoLearn trong Messenger</p>
+        </div>
+    </div><img class="message-open" src="./image/Group%208.png"></div><!-- //message -->
     <footer class="footer">
         <div class="main-footer">
             <div class="footer-col-des">
@@ -261,15 +255,13 @@
         </div>
     </footer>
     <!-- //footer -->
-    <script>
-    $(document).ready(function(){
-        $('.message-open').click(function(){
-            $('.message-boxchat').toggleClass('active')
-        })
-    })
-    </script>
+    <script src="js/jquery-3.5.1.min.js">
+    </script> 
+    <script src="js/buttonmes.js">
+    </script> 
 </body>
 </html>
+
 
 
 
