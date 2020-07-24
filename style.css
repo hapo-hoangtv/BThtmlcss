@@ -201,6 +201,7 @@ body {
   color: #11114E;
   margin-top: -10px;
   margin-bottom: 0;
+  -webkit-text-stroke-width: 1px;
 }
 
 .hapo-lesson {
@@ -301,6 +302,7 @@ body {
   font-style: normal;
   margin-bottom: 30px;
   position: relative;
+  -webkit-text-stroke-width: 1px;
 }
 
 .hapo-title span {
@@ -337,6 +339,8 @@ body {
   letter-spacing: -0.02em;
   color: #90AB26;
   text-align: center;
+  vertical-align: middle;
+  -webkit-text-stroke-width: 1px;
 }
 
 /* section-question */
@@ -541,6 +545,7 @@ body {
   line-height: 74px;
   letter-spacing: -0.05em;
   margin-left: 100px;
+  -webkit-text-stroke-width: 2px;
 }
 
 .statistic-learn span {
@@ -660,5 +665,6 @@ body {
 .message-boxchat.active {
   display: block;
 }
+
 
 
