@@ -349,7 +349,7 @@ body {
 
 .hapo-question {
   width: 100%;
-  background: url(image/Rectangle\ 17.png) no-repeat;
+  background: url(image/Rectangle\ 17.png);
   display: flex;
   padding: 150px 100px 30px 100px;
   position: relative;
@@ -404,7 +404,7 @@ body {
 /* section-feedback */
 
 .hapo-feedback {
-  width: 100%;
+  /* width: 100%; */
   height: 600px;
 }
 
@@ -420,6 +420,9 @@ body {
 }
 
 .feedback-detail {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
   display: flex;
   padding: 0 10%;
   margin-top: 15px;
@@ -430,7 +433,8 @@ body {
 }
 
 .feedback-comment {
-  background: url(./image/Union.png) no-repeat 100%;
+  background: url(./image/Union.png) no-repeat 90%;
+  background-size: cover;
   position: relative;
   padding: 45px 30px 45px 45px;
 }
@@ -480,9 +484,9 @@ body {
 /*statistic*/
 
 .statistic-logo {
-  position: relative;
-  background: url("./image/Group\ 7.png") no-repeat;
   height: 400px;
+  background: url("./image/Group\ 7.png") no-repeat;
+  background-size: cover;
   margin-left: 1px;
   text-align: center;
   display: flex;
@@ -668,6 +672,7 @@ body {
 .message-boxchat.active {
   display: block;
 }
+
 
 
 
