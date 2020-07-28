@@ -17,3 +17,4 @@ function showMes(id) {
         boxchat.style.display = "block";
     }
 }
+
