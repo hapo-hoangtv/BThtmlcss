@@ -279,8 +279,7 @@ body {
 }
 
 .subject-content h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0;
   font: bold 30px/37px 'UTM BryantLG';
   color: #B2D235;
   -webkit-text-stroke: 1px;
@@ -596,8 +595,7 @@ body {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin: 90px 0;
 }
 
 .statistic-learn {
