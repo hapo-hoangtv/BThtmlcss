@@ -206,7 +206,7 @@ body {
 }
 
 .hapo-banner a {
-  /* text-decoration: none; */
+  text-decoration: none;
   color: white;
   font: bold 30px/37px UTM;
   background-color: #B2D235;
