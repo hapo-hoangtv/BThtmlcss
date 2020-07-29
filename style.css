@@ -206,7 +206,7 @@ body {
 
 .hapo-banner h1 b {
   font: bold 50px/61px 'UTM BryantLG';
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1.5px;
 }
 
 .hapo-banner h1 b img {
@@ -214,7 +214,7 @@ body {
 }
 
 .hapo-banner p {
-  font: normal 20px/25px UTM;
+  font: normal 18px/25px UTM;
   letter-spacing: -0.05em;
   margin-top: -25px;
   color: #505353;
@@ -226,18 +226,21 @@ body {
   font: 30px/37px UTM;
   background-color: #B2D235;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 330px;
-  padding: 10px 5px;
+  width: 377px;
+  height: 65px;
+  padding-top: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 35px;
+  -webkit-text-stroke-width: 1px;
 }
 
 .hapo-banner a:hover {
   cursor: pointer;
   color: white;
-  transform: scale(1.1);
+  opacity: 0.7;
+  transition: 0.4s;
   text-decoration: none;
 }
 
@@ -294,8 +297,9 @@ body {
 
 .subject-content h3 {
   margin: 10px 0;
-  font: 30px/37px 'UTM BryantLG';
+  font: bold 30px/37px 'UTM BryantLG';
   color: #B2D235;
+  -webkit-text-stroke-width: 1px;
 }
 
 .subject-content p {
@@ -318,6 +322,7 @@ body {
   margin-top: 15px;
   margin-bottom: 25px;
   text-decoration: none;
+  -webkit-text-stroke-width: 1px;
 }
 
 .subject-content a:hover {
@@ -397,7 +402,7 @@ body {
   margin-top: 60px;
   text-align: center;
   align-self: flex-end;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
 }
 
 .hapo-all-courses img {
@@ -408,7 +413,8 @@ body {
   cursor: pointer;
   text-decoration: none;
   color: #90AB26;
-  transform: scale(1.2);
+  transform: scale(1.1);
+  transition: all ease-in-out 0.4s;
 }
 
 /* section-question */
@@ -602,8 +608,8 @@ body {
 }
 
 .statistic-logo a {
-  width: 350px;
-  padding: 10px;
+  width: 377px;
+  height: 70px;
   font: bold 30px/37px 'UTM BryantLG';
   display: flex;
   align-items: center;
@@ -613,6 +619,7 @@ body {
   color: #90AB26;
   border-radius: 40px;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke-width: 1px;
 }
 
 .statistic-logo a:hover {
